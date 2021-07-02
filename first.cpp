@@ -1,7 +1,7 @@
 #include <iostream>
-using namespace std;
+
 int main()
 {
-    cout<<"Hemanth"<<endl;
+    std::cout<<"Hemanth"<<std::endl;
     return 0;
 }
