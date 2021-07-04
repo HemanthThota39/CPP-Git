@@ -3,5 +3,6 @@
   "C_Cpp_Runner.cCompilerPath": "/usr/bin/clang",
   "files.associations": {
     "iostream": "cpp"
-  }
+  },
+  "C_Cpp.errorSquiggles": "Disabled"
 }
