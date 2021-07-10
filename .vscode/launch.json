@@ -11,8 +11,8 @@
       "environment": [],
       "program": "/Users/hemanth/Projects/Github/Cpp/build/Debug/outDebug",
       "internalConsoleOptions": "openOnSessionStart",
-      "MIMode": "gdb",
-      "miDebuggerPath": "gdb",
+      "MIMode": "lldb",
+      "miDebuggerPath": "/usr/bin/lldb",
       "externalConsole": false
     }
   ]
