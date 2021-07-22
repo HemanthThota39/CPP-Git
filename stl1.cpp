@@ -1,7 +1,8 @@
 #include <iostream>
 #include <vector>
-#include <bits/stdc++.h>
+
 using namespace std;
+using std::vector;
 int main()
 {
     //vector 
@@ -23,10 +24,11 @@ int main()
     cout<<"current size of the vector is "<<v1.size()<<endl;
 
     //sort 
-    vector<int> vect{ 3,4,5,6,2,8,9 };
-    sort(vect.begin(),vect.end());
+    vector<int> v4{3,4,5,6,2,8,9};
+    sort(v4.begin(),v4.end());
 
 
 
     return 0;
 }
+
