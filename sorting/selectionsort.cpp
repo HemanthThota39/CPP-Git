@@ -24,9 +24,10 @@ void selectionsort(int *array, int len)
 
 int main()
 {
-    int array[] = {12,23,3,65,81};
-    selectionsort(array,5);
-    for (int i=0; i<5; i++)
+    int array[] = {11,23,43,55,64,32,22,333,43,4,5,67,89,32,12,44,55,65,21};
+    int size  = sizeof(array)/sizeof(array[0]);
+    selectionsort(array,size);
+    for (int i=0; i<size; i++)
     {
         cout<<array[i]<<" ";
     }

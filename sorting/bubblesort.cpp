@@ -1,6 +1,7 @@
 //repeatedly swapping the adjacent elements
 
 #include <iostream>
+#include <stdlib.h>
 using namespace std;
 void swap(int *a, int *b)
 {
@@ -28,9 +29,20 @@ void bubblesort(int array[], int len)
 
 int main()
 {
-    int array[] = {64, 34, 25, 12, 22, 11, 90};
-    bubblesort(array, sizeof(array)/sizeof(array[0]));
-    for (int i=0; i<sizeof(array)/sizeof(array[0]); i++)
+    int len;
+    cout<<"Enter the number of elements to be contained in the array: ";
+    cin>>len;
+    int *array = new int(len);
+    
+    cout<<endl;
+    cout<<"Enter all the elements of the array"<<endl;
+    for (int i=0; i<len; i++)
+    {
+        cin>>array[i];
+    }
+    bubblesort(array, len);
+    cout<<"Elements after soring are: "<<endl;
+    for (int i=0; i<len; i++)
     {
         cout<<array[i]<<" ";
     }
