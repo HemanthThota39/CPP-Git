@@ -8,12 +8,13 @@ class rectangle
         int length;
         int breadth;
     public:
-        //constructor
+        //parametarised constructor
         rectangle(int len, int br)
         {
             length = len;
             breadth = br;
         }
+        //default constructor
         rectangle()
         {
             length = 100;
