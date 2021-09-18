@@ -16,7 +16,7 @@ int main()
         cin>>cname;
         int number_of_ordres;
         cin>>number_of_ordres;
-        for(int i=1; i<=number_of_customers; i++)
+        for(int i=1; i<=number_of_ordres; i++)
         {
             string item;
             cin>>item;

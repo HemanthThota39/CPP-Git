@@ -3,7 +3,12 @@
   "C_Cpp_Runner.cCompilerPath": "/usr/bin/clang",
   "files.associations": {
     "iostream": "cpp",
-    "iosfwd": "cpp"
+    "iosfwd": "cpp",
+    "array": "cpp",
+    "string": "cpp",
+    "string_view": "cpp",
+    "vector": "cpp",
+    "random": "cpp"
   },
   "C_Cpp.errorSquiggles": "Disabled",
   "C_Cpp_Runner.warnings": [
